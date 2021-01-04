@@ -1,6 +1,6 @@
 <?php
 
-namespace Vcoud\Mercadolibre;
+namespace Yampi\Mercadolibre;
 
 class Meli {
 
@@ -35,7 +35,7 @@ class Meli {
      * Configuration for CURL
      */
     public static $CURL_OPTS = array(
-        CURLOPT_USERAGENT => "MELI-PHP-SDK-1.1.0", 
+        CURLOPT_USERAGENT => "Yampi-MELI-SDK", 
         CURLOPT_SSL_VERIFYPEER => true,
         CURLOPT_CONNECTTIMEOUT => 10, 
         CURLOPT_RETURNTRANSFER => 1, 

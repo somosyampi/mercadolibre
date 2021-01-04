@@ -1,9 +1,9 @@
 {
-  "name": "vcoud/mercadolibre",
+  "name": "somosyampi/mercadolibre",
   "type": "library",
   "description": "Mercadolibre SDK Composer Package",
   "keywords": ["sdk", "mercadolibre", "vcoud"],
-  "homepage": "https://github.com/vcoud/mercadolibre",
+  "homepage": "https://github.com/somosyampi/mercadolibre",
   "license": "MIT",
   "authors": [
     {
@@ -18,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Vcoud\\Mercadolibre\\": "src/Vcoud/Mercadolibre"
+      "Yampi\\Mercadolibre\\": "src/Yampi/Mercadolibre"
     }
   },
   "minimun-stability": "stable"
